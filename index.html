@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SAT Prep: 7 November</title>
+<meta name="description" content="Study plan, notes, question bank, timed practice and flashcards for the digital SAT.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Source+Sans+3:wght@400;600&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap head-row">
+    <div>
+      <h1>SAT Prep</h1>
+      <p class="sub">Digital SAT · Saturday 7 November 2026</p>
+    </div>
+    <p class="count" id="countdown"></p>
+  </div>
+  <nav class="wrap nav" aria-label="Sections">
+    <a href="#overview" data-page="overview">Overview</a>
+    <a href="#plan" data-page="plan">Study plan</a>
+    <a href="#notes" data-page="notes">Notes</a>
+    <a href="#bank" data-page="bank">Question bank</a>
+    <a href="#timed" data-page="timed">Timed practice</a>
+    <a href="#cards" data-page="cards">Flashcards</a>
+    <a href="#testday" data-page="testday">Test day</a>
+  </nav>
+</header>
+
+<main class="wrap">
+
+<!-- Overview -->
+<section class="page" id="page-overview">
+  <h2>How the test works</h2>
+  <p class="lead">The digital SAT runs in the Bluebook app. Reading and Writing comes first, then a 10-minute break, then Math. Each section is scored from 200 to 800, for a total of 400 to 1600.</p>
+
+  <table class="tbl facts">
+    <tr><th></th><th>Reading &amp; Writing</th><th>Math</th></tr>
+    <tr><th>Questions</th><td>54</td><td>44</td></tr>
+    <tr><th>Time</th><td>64 min</td><td>70 min</td></tr>
+    <tr><th>Modules</th><td>2 × 32 min</td><td>2 × 35 min</td></tr>
+    <tr><th>Time per question</th><td>about 71 s</td><td>about 95 s</td></tr>
+  </table>
+
+  <h3>Module 1 decides Module 2</h3>
+  <p>Each section is adaptive. If you do well in Module 1, you get a harder Module 2, and only the harder Module 2 can lead to the top scores. Be careful in Module 1.</p>
+
+  <div class="two-col">
+    <div>
+      <h3>Math topics</h3>
+      <table class="tbl weights">
+        <tr><td>Algebra</td><td>35%</td></tr>
+        <tr><td>Advanced Math</td><td>35%</td></tr>
+        <tr><td>Problem Solving &amp; Data</td><td>15%</td></tr>
+        <tr><td>Geometry &amp; Trig</td><td>15%</td></tr>
+      </table>
+    </div>
+    <div>
+      <h3>Reading &amp; Writing topics</h3>
+      <table class="tbl weights">
+        <tr><td>Craft &amp; Structure</td><td>28%</td></tr>
+        <tr><td>Information &amp; Ideas</td><td>26%</td></tr>
+        <tr><td>Standard English Conventions</td><td>26%</td></tr>
+        <tr><td>Expression of Ideas</td><td>20%</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <h3>Dates</h3>
+  <table class="tbl dates">
+    <tr><td>23 Oct</td><td>Regular registration deadline</td></tr>
+    <tr><td>27 Oct</td><td>Late registration deadline (extra fee)</td></tr>
+    <tr><td>Week of test</td><td>Finish exam setup in Bluebook and get your admission ticket</td></tr>
+    <tr><td>7 Nov</td><td>Test day</td></tr>
+    <tr><td>20 Nov</td><td>Scores released</td></tr>
+  </table>
+
+  <h3>Five rules that raise scores</h3>
+  <ol class="rules">
+    <li><b>Answer everything.</b> There is no penalty for a wrong answer.</li>
+    <li><b>Be careful in Module 1.</b> It sets the difficulty, and the ceiling, of Module 2.</li>
+    <li><b>Flag and move on.</b> You can return to any question in the same module.</li>
+    <li><b>Use Desmos.</b> The built-in graphing calculator solves many systems and quadratics in seconds.</li>
+    <li><b>Open the reference sheet.</b> Area, volume and triangle formulas are built in.</li>
+  </ol>
+
+  <div class="progress-box" id="overviewProgress"></div>
+</section>
+
+<!-- Plan -->
+<section class="page" id="page-plan" hidden>
+  <h2>Study plan</h2>
+  <p class="lead">About 90 minutes on weekdays and a full practice test on two weekends. Tick off each day when it is done. The two full Bluebook tests are the most important days on this list.</p>
+  <p class="plan-meter" id="planMeter"></p>
+  <div class="plan" id="planList"></div>
+</section>
+
+<!-- Notes -->
+<section class="page" id="page-notes" hidden>
+  <h2>Notes</h2>
+  <p class="lead">Twelve ideas that cover most of the test. Read one before you practise its topic.</p>
+
+  <div class="toc">
+    <div>
+      <h4>Math</h4>
+      <ol>
+        <li><a href="#n-slope">Slope and lines</a></li>
+        <li><a href="#n-systems">Systems of equations</a></li>
+        <li><a href="#n-parab">Parabolas</a></li>
+        <li><a href="#n-disc">The discriminant</a></li>
+        <li><a href="#n-exp">Linear vs exponential</a></li>
+        <li><a href="#n-pct">Percents and averages</a></li>
+        <li><a href="#n-circle">Circles</a></li>
+        <li><a href="#n-trig">Right triangles and trig</a></li>
+      </ol>
+    </div>
+    <div>
+      <h4>Reading &amp; Writing</h4>
+      <ol start="9">
+        <li><a href="#n-bound">Joining sentences</a></li>
+        <li><a href="#n-extra">Extra information</a></li>
+        <li><a href="#n-trans">Transitions</a></li>
+        <li><a href="#n-predict">Predict before you look</a></li>
+      </ol>
+    </div>
+  </div>
+
+  <article class="note" id="n-slope">
+    <p class="kicker">Algebra</p>
+    <h3>1. Slope and lines</h3>
+    <div class="note-body">
+      <figure class="fig small">
+        <svg viewBox="0 0 220 170" role="img" aria-label="A line rising 2 units for every 4 units to the right, crossing the y-axis at b">
+          <path d="M20 150H210M30 160V10" class="s-axis"/>
+          <path d="M20 128L210 33" class="s-line"/>
+          <path d="M70 103H150V63" class="s-dash"/>
+          <text x="110" y="118" text-anchor="middle" class="t-sm">run = 4</text>
+          <text x="156" y="88" class="t-sm">rise = 2</text>
+          <circle cx="30" cy="123" r="3.5" class="f-ink"/>
+          <text x="38" y="138" class="t-sm">b</text>
+        </svg>
+      </figure>
+      <div>
+        <p class="formula">y = mx + b</p>
+        <ul>
+          <li><b>m</b> is the slope: rise ÷ run, or (y₂ − y₁) ÷ (x₂ − x₁).</li>
+          <li><b>b</b> is the y-intercept, where the line crosses the y-axis.</li>
+          <li>In word problems, the rate ("per hour", "each month") is m and the one-time fee is b.</li>
+          <li>Parallel lines have the same slope. Perpendicular slopes multiply to −1.</li>
+        </ul>
+      </div>
+    </div>
+  </article>
+
+  <article class="note" id="n-systems">
+    <p class="kicker">Algebra</p>
+    <h3>2. Systems of equations</h3>
+    <div class="note-body">
+      <figure class="fig small">
+        <svg viewBox="0 0 300 110" role="img" aria-label="Three cases: lines crossing once, parallel lines, and one line on top of another">
+          <g><path d="M10 90L90 20M10 25L90 85" class="s-line"/><text x="50" y="106" text-anchor="middle" class="t-sm">one solution</text></g>
+          <g><path d="M110 85L190 35M110 65L190 15" class="s-line"/><text x="150" y="106" text-anchor="middle" class="t-sm">no solution</text></g>
+          <g><path d="M210 85L290 25" class="s-line thick"/><text x="250" y="106" text-anchor="middle" class="t-sm">infinitely many</text></g>
+        </svg>
+      </figure>
+      <div>
+        <ul>
+          <li><b>Different slopes:</b> exactly one solution.</li>
+          <li><b>Same slope, different intercept:</b> parallel, no solution. Match the x and y coefficients but not the constant.</li>
+          <li><b>Same line:</b> every coefficient and the constant are in the same ratio. Infinitely many solutions.</li>
+          <li>To solve, add or subtract the equations to cancel one variable (elimination), or substitute.</li>
+          <li>Quick check: type both equations into Desmos and click where the lines cross.</li>
+        </ul>
+      </div>
+    </div>
+  </article>
+
+  <article class="note" id="n-parab">
+    <p class="kicker">Advanced Math</p>
+    <h3>3. Parabolas</h3>
+    <div class="note-body">
+      <figure class="fig small">
+        <svg viewBox="0 0 220 170" role="img" aria-label="Parabola y equals x minus 3 squared minus 4, roots at 1 and 5, vertex at 3, negative 4">
+          <path d="M10 70H210" class="s-axis"/>
+          <path d="M40 10Q110 220 180 10" class="s-line"/>
+          <path d="M110 10V160" class="s-dash"/>
+          <circle cx="63" cy="70" r="3.5" class="f-ink"/><circle cx="157" cy="70" r="3.5" class="f-ink"/>
+          <circle cx="110" cy="115" r="3.5" class="f-ink"/>
+          <text x="58" y="62" text-anchor="end" class="t-sm">1</text><text x="162" y="62" class="t-sm">5</text>
+          <text x="118" y="128" class="t-sm">vertex (3, −4)</text>
+        </svg>
+      </figure>
+      <div>
+        <ul>
+          <li><b>Vertex form</b> y = a(x − h)² + k shows the vertex (h, k). Watch the sign flip on h.</li>
+          <li><b>Factored form</b> y = a(x − 1)(x − 5) shows the roots, 1 and 5.</li>
+          <li>The vertex sits halfway between the roots.</li>
+          <li>Sum of roots = −b/a. Product of roots = c/a.</li>
+          <li>a &gt; 0 opens up (vertex is a minimum). a &lt; 0 opens down (vertex is a maximum).</li>
+        </ul>
+      </div>
+    </div>
+  </article>
+
+  <article class="note" id="n-disc">
+    <p class="kicker">Advanced Math</p>
+    <h3>4. The discriminant</h3>
+    <p>For ax² + bx + c = 0, compute <b>b² − 4ac</b>.</p>
+    <table class="tbl compact">
+      <tr><th>b² − 4ac</th><th>Real solutions</th><th>Graph</th></tr>
+      <tr><td>greater than 0</td><td>2</td><td>crosses the x-axis twice</td></tr>
+      <tr><td>equal to 0</td><td>1</td><td>touches the x-axis at the vertex</td></tr>
+      <tr><td>less than 0</td><td>0</td><td>never reaches the x-axis</td></tr>
+    </table>
+    <ul>
+      <li>"Exactly one solution" means set the discriminant equal to 0 and solve for the constant.</li>
+      <li>A line meeting a parabola once? Substitute one equation into the other, then use the same test.</li>
+    </ul>
+  </article>
+
+  <article class="note" id="n-exp">
+    <p class="kicker">Advanced Math</p>
+    <h3>5. Linear vs exponential</h3>
+    <table class="tbl compact">
+      <tr><th>t</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th></tr>
+      <tr><th>Linear (+3 each step)</th><td>3</td><td>6</td><td>9</td><td>12</td><td>15</td></tr>
+      <tr><th>Exponential (×2 each step)</th><td>1</td><td>2</td><td>4</td><td>8</td><td>16</td></tr>
+    </table>
+    <ul>
+      <li>Linear adds the same amount each step. Exponential multiplies by the same factor.</li>
+      <li>Exponential form: y = a · bᵗ. a is the starting value; b is the multiplier.</li>
+      <li>Grows 6% → b = 1.06. Shrinks 6% → b = 0.94.</li>
+      <li>"Doubles every 3 years" → 2^(t/3). The exponent counts 3-year periods.</li>
+    </ul>
+  </article>
+
+  <article class="note" id="n-pct">
+    <p class="kicker">Problem Solving &amp; Data</p>
+    <h3>6. Percents and averages</h3>
+    <p class="formula">$80 × 1.25 = $100 → $100 × 0.80 = $80</p>
+    <ul>
+      <li>+25% then −20% is not +5%. Percent changes multiply, so here there is no change at all.</li>
+      <li>Increase by p%: multiply by (1 + p/100). Decrease: multiply by (1 − p/100).</li>
+      <li>Percent change = (new − old) ÷ old. Always divide by the original.</li>
+      <li>"x is what percent of y?" → x ÷ y × 100.</li>
+      <li>Mean = total ÷ count. Missing value? Find the total first.</li>
+      <li>Outliers pull the mean; the median barely moves.</li>
+    </ul>
+  </article>
+
+  <article class="note" id="n-circle">
+    <p class="kicker">Geometry</p>
+    <h3>7. Circles</h3>
+    <div class="note-body">
+      <figure class="fig small">
+        <svg viewBox="0 0 200 170" role="img" aria-label="Circle with center h, k and radius r">
+          <circle cx="100" cy="85" r="65" class="s-line"/>
+          <circle cx="100" cy="85" r="3.5" class="f-ink"/>
+          <path d="M100 85L146 39" class="s-dash"/>
+          <text x="128" y="72" class="t-sm">r</text>
+          <text x="72" y="104" class="t-sm">(h, k)</text>
+        </svg>
+      </figure>
+      <div>
+        <p class="formula">(x − h)² + (y − k)² = r²</p>
+        <ul>
+          <li>(x − 2)² + (y + 1)² = 25 → center (2, −1), radius 5.</li>
+          <li>Given x² + 4x + y² …? Complete the square: add (4 ÷ 2)² = 4 to both sides.</li>
+          <li>Circumference = 2πr. Area = πr².</li>
+          <li>Arc length = (angle ÷ 360) × 2πr. Sector area = (angle ÷ 360) × πr².</li>
+          <li>π radians = 180°.</li>
+        </ul>
+      </div>
+    </div>
+  </article>
+
+  <article class="note" id="n-trig">
+    <p class="kicker">Trigonometry</p>
+    <h3>8. Right triangles and trig</h3>
+    <div class="note-body">
+      <figure class="fig small">
+        <svg viewBox="0 0 240 160" role="img" aria-label="Right triangle with angle A, opposite side 3, adjacent side 4, hypotenuse 5">
+          <path d="M30 130H190V30Z" class="s-line"/>
+          <path d="M178 130V118H190" class="s-thin"/>
+          <text x="14" y="138" class="t-sm">A</text>
+          <text x="198" y="138" class="t-sm">C</text>
+          <text x="196" y="28" class="t-sm">B</text>
+          <text x="110" y="148" text-anchor="middle" class="t-sm">adjacent 4</text>
+          <text x="196" y="84" class="t-sm">opp 3</text>
+          <text x="92" y="70" text-anchor="middle" class="t-sm">hyp 5</text>
+        </svg>
+      </figure>
+      <div>
+        <ul>
+          <li><b>SOH CAH TOA:</b> sin A = opp/hyp = 3/5. cos A = adj/hyp = 4/5. tan A = opp/adj = 3/4.</li>
+          <li>a² + b² = c² for any right triangle.</li>
+          <li>Complementary angles: sin x° = cos(90 − x)°.</li>
+          <li>45-45-90 sides: x, x, x√2. 30-60-90 sides: x, x√3, 2x.</li>
+          <li>Similar triangles have equal angles and proportional sides.</li>
+        </ul>
+      </div>
+    </div>
+  </article>
+
+  <article class="note" id="n-bound">
+    <p class="kicker">Standard English Conventions</p>
+    <h3>9. Joining sentences</h3>
+    <table class="tbl examples">
+      <tr><td>It rained<b>.</b> We stayed in.</td><td class="ok">Correct</td></tr>
+      <tr><td>It rained<b>;</b> we stayed in.</td><td class="ok">Correct</td></tr>
+      <tr><td>It rained<b>, so</b> we stayed in.</td><td class="ok">Correct</td></tr>
+      <tr><td>We had one plan<b>:</b> stay in.</td><td class="ok">Correct</td></tr>
+      <tr><td>It rained<b>,</b> we stayed in.</td><td class="bad">Comma splice</td></tr>
+      <tr><td>The recipe calls for<b>:</b> flour and eggs.</td><td class="bad">No full sentence before the colon</td></tr>
+    </table>
+    <ul>
+      <li>A semicolon works exactly like a period: complete sentences on both sides.</li>
+      <li>A comma alone cannot join two sentences. Add a FANBOYS word: for, and, nor, but, or, yet, so.</li>
+      <li>A colon needs a complete sentence before it. After it can come a list, an example or an explanation.</li>
+    </ul>
+  </article>
+
+  <article class="note" id="n-extra">
+    <p class="kicker">Standard English Conventions</p>
+    <h3>10. Extra information</h3>
+    <table class="tbl examples">
+      <tr><td>The violinist<b>,</b> who trained in Vienna<b>,</b> played first.</td><td class="ok">Correct</td></tr>
+      <tr><td>The violinist<b> —</b> who trained in Vienna<b> —</b> played first.</td><td class="ok">Correct</td></tr>
+      <tr><td>The violinist <b>(</b>who trained in Vienna<b>)</b> played first.</td><td class="ok">Correct</td></tr>
+      <tr><td>The violinist<b> —</b> who trained in Vienna<b>,</b> played first.</td><td class="bad">Mixed pair</td></tr>
+    </table>
+    <ul>
+      <li>Extra information sits between a matching pair: two commas, two dashes or two parentheses.</li>
+      <li>Test: delete the middle part. The sentence must still work.</li>
+      <li>If the extra information opens with a dash, the answer closes it with a dash.</li>
+    </ul>
+  </article>
+
+  <article class="note" id="n-trans">
+    <p class="kicker">Expression of Ideas</p>
+    <h3>11. Transitions</h3>
+    <table class="tbl compact">
+      <tr><th>Relationship</th><th>Words</th></tr>
+      <tr><td>Same direction</td><td>Moreover, Similarly, In addition, Likewise</td></tr>
+      <tr><td>Contrast</td><td>However, By contrast, Still, Nevertheless</td></tr>
+      <tr><td>Cause and effect</td><td>Therefore, As a result, Thus, Consequently</td></tr>
+      <tr><td>Example</td><td>For example, For instance, Specifically</td></tr>
+    </table>
+    <ul>
+      <li>Cover the choices. Read the sentence before and after, then name the relationship.</li>
+      <li>Pick the word that matches. If two choices mean the same thing, both are wrong.</li>
+    </ul>
+  </article>
+
+  <article class="note" id="n-predict">
+    <p class="kicker">Craft &amp; Structure · Information &amp; Ideas</p>
+    <h3>12. Predict before you look</h3>
+    <ol>
+      <li>Read the short passage and the question. Find the clue: a colon, a "but", an example, a definition.</li>
+      <li>Fill the blank with your own plain word, like "confirmed" or "simple".</li>
+      <li>Now look at the choices and pick the closest match to your word.</li>
+    </ol>
+    <ul>
+      <li>For evidence questions, the right answer can always be proved from the text. Sounding smart does not count.</li>
+      <li>For notes questions (rhetorical synthesis), read the goal first. Choose the sentence that does exactly that goal.</li>
+      <li>For main idea questions, the answer covers the whole text, not one detail.</li>
+    </ul>
+  </article>
+</section>
+
+<!-- Question bank -->
+<section class="page" id="page-bank" hidden>
+  <h2>Question bank</h2>
+  <p class="lead">Original practice questions in the style of the digital SAT. Each one explains the answer. Your answers save in this browser.</p>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="filters">
+    <label>Section
+      <select id="fSec">
+        <option value="all">All sections</option>
+        <option value="math">Math</option>
+        <option value="rw">Reading &amp; Writing</option>
+      </select>
+    </label>
+    <label>Topic
+      <select id="fDom"><option value="all">All topics</option></select>
+    </label>
+    <label>Difficulty
+      <select id="fDiff">
+        <option value="all">Any</option>
+        <option value="1">Easy</option>
+        <option value="2">Medium</option>
+        <option value="3">Hard</option>
+      </select>
+    </label>
+    <label>Show
+      <select id="fStat">
+        <option value="all">All questions</option>
+        <option value="new">Not answered</option>
+        <option value="miss">Missed</option>
+      </select>
+    </label>
+    <span class="reset" id="resetWrap"><button class="btn link" id="resetBtn">Reset answers</button></span>
+  </div>
+  <p class="count-line" id="countLine"></p>
+  <div class="qlist" id="qlist"></div>
+</section>
+
+<!-- Timed practice -->
+<section class="page" id="page-timed" hidden>
+  <h2>Timed practice</h2>
+  <div id="timedBox"></div>
+</section>
+
+<!-- Flashcards -->
+<section class="page" id="page-cards" hidden>
+  <h2>Flashcards</h2>
+  <p class="lead">Read the front, say the answer out loud, then flip. Mark the card so the deck knows which ones to show you again.</p>
+  <div class="filters">
+    <label>Deck
+      <select id="fcDeck">
+        <option value="all">All cards</option>
+        <option value="Math">Math</option>
+        <option value="R&amp;W">Reading &amp; Writing</option>
+        <option value="learning">Still learning</option>
+      </select>
+    </label>
+    <button class="btn link" id="fcShuffle">Shuffle</button>
+  </div>
+  <div id="fcBox"></div>
+</section>
+
+<!-- Test day -->
+<section class="page" id="page-testday" hidden>
+  <h2>Test day</h2>
+  <div class="two-col">
+    <div>
+      <h3>Bag checklist</h3>
+      <ul class="check" id="bag"></ul>
+    </div>
+    <div>
+      <h3>On the day</h3>
+      <ul>
+        <li>Eat breakfast and arrive early.</li>
+        <li>Answer every question. There is no penalty for guessing.</li>
+        <li>In Module 1, slow down on easy questions. Careless misses cost the most here.</li>
+        <li>If a question takes more than two minutes, guess, flag it and come back.</li>
+        <li>Use the 10-minute break to drink water and reset. Do not think about Reading and Writing during Math.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Free official practice</h3>
+  <ul class="links">
+    <li><a href="https://bluebook.collegeboard.org/" target="_blank" rel="noopener">Bluebook</a>: full-length adaptive practice tests. Closest to the real exam.</li>
+    <li><a href="https://satsuitequestionbank.collegeboard.org/" target="_blank" rel="noopener">SAT Suite Question Bank</a>: official questions, filterable by topic and difficulty.</li>
+    <li><a href="https://www.khanacademy.org/test-prep/digital-sat" target="_blank" rel="noopener">Khan Academy Digital SAT</a>: free lessons and practice by skill.</li>
+    <li><a href="https://satsuite.collegeboard.org/sat/whats-on-the-test" target="_blank" rel="noopener">What’s on the SAT</a>: the official test outline.</li>
+  </ul>
+</section>
+
+</main>
+
+<footer class="wrap foot">
+  <p>Practice questions on this site are original and written in the style of the SAT. They are not official College Board material. Progress is saved in this browser only.</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
